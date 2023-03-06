@@ -20,8 +20,15 @@
 		<img class="img-fluid" id="banner" src="{{url_for('static', filename='banner.jpg')}}"/>
 		<div class="container">
 			<h1 class="text-center mt-2 mb-4">{{company_name}} Careers</h1>
+			<div class="row" style="margin-bottom: 16px;">
+				<div class="col-6">
 			<p class="lead">Lobortis feugiat vivamus at augue eget arcu. Nisi porta lorem mollis aliquam. Viverra maecenas accumsan lacus vel. Cursus tu		    rpis massa tincidunt dui ut ornare lectus. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Tempus imperdie		t nulla malesuada pellentesque. Massa massa ultricies mi quis hendrerit dolor magna. Ac placerat vestibulum lectus mauris ul		    trices eros in. Sem et tortor consequat id porta nibh venenatis. Mollis aliquam ut porttitor leo a diam sollicitudin tempor 		id.
 			</p>
+			</div>
+			<div class="col-6">
+			<img src="/static/people.jpg" style="height: 320px; border-radius: 4px">
+			</div>
+			</div>
 			<h2 class="text-center mt-2 mb-4">Job Opennings</h2>
 			<div>
 				{% for job in jobs %}
